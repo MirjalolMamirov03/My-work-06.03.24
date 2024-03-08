@@ -226,3 +226,60 @@ body {
 }
 
 /* //SITE-HERO */
+
+
+
+/* ABOUT-SECTION */
+.about-image {
+    position: relative;
+    text-align: center;
+}
+
+.about-work {
+    position: absolute;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+}
+
+.about-work__count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0fdac2;
+    position: absolute;
+    top: -11px;
+    right: -9px;
+}
+
+.about-image__img {
+    width: 460px;
+    height: 425px;
+    margin: auto;
+}
+
+.about-desc {
+    background-color: var(--body);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.about-desc__text {
+    color: var(--text-color);
+    font-family: var(--Montserrat);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+/* //ABOUT-SECTION */
