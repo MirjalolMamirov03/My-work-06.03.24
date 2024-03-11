@@ -2,14 +2,14 @@
 
 /* CUSTOM-PROPS */
 :root {
-    --primary-color: #7177F1;
-    --body: #151437;
+    --primary-color: #000dff;
+    --body: #393942;
     --text-color: #fff;  /* 323232 */
-    --dots: #ebebeb; /*828282*/
-    --dots-active: #7177F1;
+    --dots: #302a2a; /*828282*/
+    --dots-active: #ffffff;
     --white: #FFF;
     --subtitle: #EBEBEB;  /* 323232 */
-    --footer-link: #FFF; /* #7177F1 */
+    --footer-link: #929292; /* #7177F1 */
     --Montserrat: "Montserrat";
     --Trebuchet: "Trebuchet";
 }
