@@ -92,6 +92,12 @@ body {
 /* //GLOBAL-STYLES */
 
 /* SITE-HEADER */
+
+.site-header-hero {
+    width: 100%;
+    overflow: hidden;
+}
+
 .logo::before {
     content: url(../img/logo\ dark.svg);
     display: block;
@@ -113,6 +119,56 @@ body {
     padding-left: 43px !important;
     padding-right: 43px !important;
 }
+
+/* NAV-ANIMATION */
+.nav-anim {
+    position: relative;
+}
+
+.nav-anim::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #790ff1;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: -5%;
+    animation: scale 2s alternate-reverse infinite;
+}
+
+.nav-anim::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #3237ef;
+    position: absolute;
+    top: 50px;
+    right: -5%;
+    animation: rotate 2s alternate-reverse infinite;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }    
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* NAV-ANIMATION */
 
 
 /* MENU-BAR */
